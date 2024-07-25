@@ -97,7 +97,7 @@ if (!$eventDetails) {
 </head>
 <body>
     <header>
-        <img src="/images/logo.jpg" alt="Logo da Empresa" class="logo">
+        <img src="/images/Logo.png" alt="Logo da Empresa" class="logo">
         <div class="header-links">
             <a href="/cadastro">Cadastro</a>
             <a href="/login">Login</a>

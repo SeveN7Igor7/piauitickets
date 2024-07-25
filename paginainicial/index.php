@@ -3,105 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Seu Site</title>
-    <style>
-        /* Estilos CSS */
-        body, html {
-            margin: 0;
-            padding: 0;
-            font-family: 'Arial', sans-serif;
-            min-height: 100%;
-            position: relative;
-        }
-        header {
-            width: 100%;
-            background-color: black;
-            color: white;
-            padding: 5px 0;
-            text-align: center;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: fixed;
-            top: 0;
-            z-index: 1000;
-        }
-        .logo {
-            max-width: 100px;
-            margin-left: 10px;
-        }
-        .header-links {
-            margin-right: 20px;
-        }
-        .header-links a {
-            color: white;
-            text-decoration: none;
-            margin-left: 20px;
-            font-size: 16px;
-        }
-        .header-links a:hover {
-            text-decoration: underline;
-        }
-        main {
-            padding-top: 80px; /* Ajuste para o cabeçalho não sobrepor o conteúdo */
-        }
-        .event-cards {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            padding: 20px;
-        }
-        .event-card {
-            width: calc(22% - 20px); /* Aproximadamente 22% para 4 eventos por linha com espaço entre */
-            border: 1px solid #ccc;
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-        .event-card img {
-            width: 100%;
-            max-height: 150px;
-            object-fit: cover;
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
-        }
-        .event-card h2 {
-            margin-top: 10px;
-            font-size: 18px;
-        }
-        .event-card p {
-            font-size: 14px;
-            color: #555;
-            flex-grow: 1;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #f0f0f0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        .cart-button {
-            margin-top: 10px;
-            padding: 8px 16px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-    </style>
 </head>
 <body>
     <header>
-        <img src="images/logo.jpg" alt="Logo da Empresa" class="logo">
+        <img src="../images/Logo.png" alt="Logo da Empresa" class="logo">
         <div class="header-links">
             <a href="/cadastro">Cadastro</a>
             <a href="/login">Login</a>
